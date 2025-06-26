@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact mee.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Bold-Views.html">Home</a></li>
+                <li><a href="Bold-Views.html">About Us</a></li>
+                <li><a href="hire.html">Hire</a></li>
+                <li><a href="contact mee.html">Contact Us</a></li>
+                <li><a href="#">Help us</a></li>
+                <li><a href="#">Payment</a></li>
+                <li><a href="login.html">Login/Register</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact-form">
+        <h2>To Submit Your Problems</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name" aria-required="true">Name</label>
+                <input type="text" id="name" 
+                       name="name" 
+                       placeholder="Your Name" required>
+                <span class="error-message" id="nameError"></span>
+            <div class="form-group">
+                <label for="email" aria-required="true">Email</label>
+                <input type="email" id="email" 
+                       name="email" 
+                       placeholder="Your Email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+                <label for="phone" aria-required="true">Phone</label>
+
+                <input type="number" id="phone" 
+                       name="phone" 
+                       placeholder="Your Phone Number" required>
+                <span class="error-message" id="phoneError"></span>
+                <label for="message">Message</label>
+                <textarea id="message" 
+                          name="message" aria-required="true"
+                          placeholder="Your Message" 
+                          rows="5" required></textarea>
+                <span class="error-message" 
+                      id="messageError"></span>
+            </div>
+            <button type="submit" 
+                    class="submit-button">
+              Submit
+            </button>
+            <div>
+                <h1>To Contact Us</h1>
+                <p class="paragraph">Phone No. - <a href="#">0000000000</a></p>
+                <p class="email">Email ID - <a href="#">abcdefgh@gmail.com</a></p>
+            </div>
+        </form>
+    </div>
+        <!-- <div class="contact">
+            <h2>To Contact us</h2>
+            <img src="images.jpeg" class="image">
+            <a href="#" class="phonenumber">0000000000</a>
+            <h3>Email ID - abcdefghijk@gmail.com</h3>
+        </div> -->
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Contact Me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Bold-Views Studio.html">Home</a></li>
+                <li><a href="Bold-Views Studio.html">About Us</a></li>
+                <li><a href="hire.html">Hire Me</a></li>
+                <li><a href="Contact Me.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact-form">
+        <h2>To Submit Your Problems</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" 
+                       name="name" 
+                       placeholder="Your Name" required>
+                <span class="error-message" id="nameError"></span>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" 
+                       name="email" 
+                       placeholder="Your Email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+                <label for="phone">Phone</label>
+
+                <input type="number" id="phone" 
+                       name="phone" 
+                       placeholder="Your Phone Number" required>
+                <span class="error-message" id="phoneError"></span>
+                <label for="message">Message</label>
+                <textarea id="message" 
+                          name="message" 
+                          placeholder="Your Message" 
+                          rows="5" required></textarea>
+                <span class="error-message" 
+                      id="messageError"></span>
+            </div>
+            <button type="submit" 
+                    class="submit-button">
+              Submit
+            </button>
+        </form>
+    </div>
+    <br/>
+    <div class="contact">
+        <h2>To Contact us</h2>
+        <img src="images.jpeg" class="image">
+        <a href="#" class="phonenumber">0000000000</a>
+        <h3>Email ID - abcdefghijk@gmail.com</h3>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
